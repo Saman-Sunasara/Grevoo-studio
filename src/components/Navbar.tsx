@@ -41,8 +41,8 @@ export default function Navbar() {
             <Image
               src="/images/logo.png"
               alt="Grevoo Studio Logo"
-              width={600}
-              height={190}
+              width={900}
+              height={300}
               className="object-contain brand-logo-scale"
               priority
             />
