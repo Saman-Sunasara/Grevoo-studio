@@ -95,3 +95,16 @@ body {
     linear-gradient(to right, rgba(255, 255, 255, 0.015) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
 }
+
+/* Custom responsive logo scaling */
+.brand-logo-scale {
+  width: 5.5cm;
+  height: 1.7cm;
+}
+
+@media (min-width: 640px) {
+  .brand-logo-scale {
+    width: 8cm;
+    height: 2.5cm;
+  }
+}

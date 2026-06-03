@@ -41,10 +41,9 @@ export default function Navbar() {
             <Image
               src="/images/logo.png"
               alt="Grevoo Studio Logo"
-              width={400}
-              height={130}
-              className="object-contain"
-              style={{ width: "5cm", height: "1.6cm" }}
+              width={600}
+              height={190}
+              className="object-contain brand-logo-scale"
               priority
             />
           </a>
