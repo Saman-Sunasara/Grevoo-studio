@@ -159,7 +159,7 @@ export default function Hero() {
   return (
     <section
       ref={containerRef}
-      className="relative min-h-screen w-full bg-[#030303] flex flex-col justify-center items-center overflow-hidden px-6 md:px-12 py-24 select-none"
+      className="relative min-h-screen w-full bg-[#030303] flex flex-col justify-center items-center overflow-hidden px-6 md:px-12 pt-[160px] pb-16 md:pt-[280px] md:pb-24 select-none"
     >
       {/* Background Interactive Canvas */}
       <canvas
