@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,9 +38,15 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="flex items-center space-x-2 group">
-            <span className="font-display font-extrabold text-xl tracking-wider text-white">
-              GREVOO <span className="text-gradient-purple-cyan">STUDIO</span>
-            </span>
+            <Image
+              src="/images/logo.png"
+              alt="Grevoo Studio Logo"
+              width={160}
+              height={45}
+              className="h-10 w-auto object-contain invert brightness-200"
+              priority
+              unoptimized
+            />
           </a>
 
           {/* Desktop Nav Links */}

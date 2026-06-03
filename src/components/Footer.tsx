@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowUp } from "lucide-react";
+import Image from "next/image";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -20,9 +21,14 @@ export default function Footer() {
           {/* Logo & Pitch */}
           <div className="md:col-span-6 flex flex-col items-start">
             <a href="#" className="flex items-center space-x-2 group mb-6">
-              <span className="font-display font-extrabold text-2xl tracking-wider text-white">
-                GREVOO <span className="text-gradient-purple-cyan">STUDIO</span>
-              </span>
+              <Image
+                src="/images/logo.png"
+                alt="Grevoo Studio Logo"
+                width={160}
+                height={45}
+                className="h-10 w-auto object-contain invert brightness-200"
+                unoptimized
+              />
             </a>
             <p className="text-zinc-500 font-medium text-sm leading-relaxed max-w-sm">
               We design and engineer bespoke, high-performance websites, dynamic platforms, and AI-driven experiences for forward-thinking brands globally.
