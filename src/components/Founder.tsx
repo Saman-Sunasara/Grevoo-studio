@@ -28,7 +28,7 @@ export default function Founder() {
               {/* Image Frame */}
               <div className="relative w-full h-full rounded-[24px] overflow-hidden">
                 <Image
-                  src="/images/saman.png"
+                  src="/images/saman.jpg"
                   alt="Saman Sunasara"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
