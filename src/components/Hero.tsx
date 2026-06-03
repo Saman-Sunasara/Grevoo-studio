@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import gsap from "gsap";
+import Image from "next/image";
 
 export default function Hero() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -166,6 +167,17 @@ export default function Hero() {
       {/* Decorative Ambient Background Glows */}
       <div className="absolute top-1/4 left-1/4 w-[40vw] h-[40vw] rounded-full bg-brand-purple/10 glow-blur -z-10" />
       <div className="absolute bottom-1/4 right-1/4 w-[50vw] h-[50vw] rounded-full bg-brand-cyan/5 glow-blur -z-10" />
+
+      {/* Background Watermark Logo with 12% Opacity */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[75vw] max-w-[750px] aspect-[16/10] pointer-events-none z-0 opacity-12 select-none">
+        <Image
+          src="/images/logo.png"
+          alt="Grevoo Studio Watermark"
+          fill
+          className="object-contain invert brightness-[2.5] contrast-[1.2]"
+          unoptimized
+        />
+      </div>
 
       {/* Hero Content */}
       <div className="relative max-w-5xl mx-auto text-center z-10 flex flex-col items-center justify-center">
