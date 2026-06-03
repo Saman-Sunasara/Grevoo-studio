@@ -41,11 +41,10 @@ export default function Navbar() {
             <Image
               src="/images/logo.png"
               alt="Grevoo Studio Logo"
-              width={220}
-              height={60}
-              className="h-14 w-auto object-contain"
+              width={280}
+              height={80}
+              className="h-16 sm:h-20 w-auto object-contain"
               priority
-              unoptimized
             />
           </a>
 

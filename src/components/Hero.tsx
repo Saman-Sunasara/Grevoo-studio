@@ -14,6 +14,9 @@ export default function Hero() {
 
   // Interactive Grid Canvas Animation
   useEffect(() => {
+    // Disable canvas grid logic on mobile to save CPU and load speed
+    if (window.innerWidth < 768) return;
+
     const canvas = canvasRef.current;
     if (!canvas) return;
 
@@ -175,7 +178,6 @@ export default function Hero() {
           alt="Grevoo Studio Watermark"
           fill
           className="object-contain"
-          unoptimized
         />
       </div>
 

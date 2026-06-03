@@ -24,10 +24,9 @@ export default function Footer() {
               <Image
                 src="/images/logo.png"
                 alt="Grevoo Studio Logo"
-                width={160}
-                height={45}
-                className="h-10 w-auto object-contain"
-                unoptimized
+                width={280}
+                height={80}
+                className="h-16 w-auto object-contain"
               />
             </a>
             <p className="text-zinc-500 font-medium text-sm leading-relaxed max-w-sm">

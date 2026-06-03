@@ -33,7 +33,6 @@ export default function Founder() {
                   alt="Saman Sunasara"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
-                  unoptimized
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent" />
               </div>

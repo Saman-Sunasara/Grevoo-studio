@@ -122,7 +122,6 @@ export default function FeaturedWork() {
                   fill
                   sizes="(max-width: 1024px) 100vw, 33vw"
                   className="object-cover opacity-60 transition-transform duration-700 ease-out group-hover:scale-105 group-hover:opacity-40"
-                  unoptimized
                 />
                 {/* Overlay gradient */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent" />
