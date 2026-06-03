@@ -98,13 +98,13 @@ body {
 
 /* Custom responsive logo scaling */
 .brand-logo-scale {
-  width: 5.5cm;
-  height: 1.7cm;
+  width: 7cm;
+  height: 2.45cm;
 }
 
 @media (min-width: 640px) {
   .brand-logo-scale {
-    width: 8cm;
-    height: 2.5cm;
+    width: 10cm;
+    height: 3.5cm;
   }
 }

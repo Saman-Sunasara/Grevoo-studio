@@ -20,7 +20,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-8 items-start mb-16">
           {/* Logo & Pitch */}
           <div className="md:col-span-6 flex flex-col items-start">
-            <a href="#" className="flex items-center space-x-2 group mb-6">
+            <a href="#" className="flex items-center space-x-2 group mb-6 md:-ml-12 transition-all">
               <Image
                 src="/images/logo.png"
                 alt="Grevoo Studio Logo"

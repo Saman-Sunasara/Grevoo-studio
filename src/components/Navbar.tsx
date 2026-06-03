@@ -37,7 +37,7 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between">
           {/* Logo */}
-          <a href="#" className="flex items-center space-x-2 group">
+          <a href="#" className="flex items-center space-x-2 group md:-ml-12 transition-all">
             <Image
               src="/images/logo.png"
               alt="Grevoo Studio Logo"
