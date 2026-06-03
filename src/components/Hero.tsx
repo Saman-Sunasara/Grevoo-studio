@@ -174,7 +174,7 @@ export default function Hero() {
           src="/images/logo.png"
           alt="Grevoo Studio Watermark"
           fill
-          className="object-contain invert brightness-[2.5] contrast-[1.2]"
+          className="object-contain"
           unoptimized
         />
       </div>

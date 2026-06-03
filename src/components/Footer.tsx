@@ -26,7 +26,7 @@ export default function Footer() {
                 alt="Grevoo Studio Logo"
                 width={160}
                 height={45}
-                className="h-10 w-auto object-contain invert brightness-[3.5] contrast-[1.5]"
+                className="h-10 w-auto object-contain"
                 unoptimized
               />
             </a>
