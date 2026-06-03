@@ -42,7 +42,7 @@ export default function Contact() {
 
             <div className="space-y-6">
               <a
-                href="mailto:studio@grevoo.com"
+                href="mailto:samanvisuals.39@gmail.com"
                 className="flex items-center gap-4 group p-4 rounded-2xl glass-card border border-white/5 hover:border-brand-purple/20 transition-all duration-300 w-fit"
               >
                 <div className="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-zinc-400 group-hover:text-white transition-colors">
@@ -51,7 +51,7 @@ export default function Contact() {
                 <div>
                   <p className="text-[10px] font-bold uppercase tracking-widest text-zinc-500">Email Us</p>
                   <p className="text-sm font-semibold text-white group-hover:text-gradient-purple-cyan transition-colors">
-                    studio@grevoo.com
+                    samanvisuals.39@gmail.com
                   </p>
                 </div>
               </a>
