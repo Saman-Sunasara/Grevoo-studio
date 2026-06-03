@@ -69,7 +69,7 @@ export default function Founder() {
 
               {/* Instagram */}
               <motion.a
-                href="https://instagram.com"
+                href="https://www.instagram.com/_sxmann._/"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1, y: -2 }}

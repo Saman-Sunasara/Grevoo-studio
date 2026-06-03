@@ -90,9 +90,20 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-zinc-950 pt-8 flex flex-col sm:flex-row items-center justify-between gap-6">
           <p className="text-xs font-medium text-zinc-600">
-            &copy; {currentYear} Grevoo Studio. All rights reserved. Founded by{" "}
+            &copy; {currentYear} Grevoo Studio. All rights reserved. Made by{" "}
             <a
-              href="https://github.com/Saman-Sunasara"
+              href="https://grevoo.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-zinc-400 hover:text-white hover:underline transition-all"
+            >
+              Grevoo Studio
+            </a>
+            . Founder:{" "}
+            <a
+              href="https://grevoo.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-zinc-400 hover:text-white hover:underline transition-all"
             >
               Saman Sunasara
